@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %} {{pageTitle}} {% endblock %}
+{% block head %}
+    {{ parent() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+    <h1>{{pageTitle}}</h1>
+    <div id="main" style="background:url(img/roombg.jpeg) top center no-repeat;width: 960px;height: 800px;">
+
+        fuckin a it actually works
+    
+      	{% for doc in docs %}
+      	
+      	{% include 'painting-link.html' %}
+
+      	{% endfor %}
+    </div>
+{% endblock %}

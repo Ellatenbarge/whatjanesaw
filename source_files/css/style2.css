@@ -1,0 +1,84 @@
+
+/*-----------------------------------------------------------------
+header
+-----------------------------------------------------------------*/
+
+* {margin:0;padding:0;}
+
+body {background:#5e5550; position:relative; font-size:12px; font-family:Palatino Linotype, Book Antiqua, Palatino, serif;}
+#header {height:18px; background: transparent url('images/header-bg.png') top center repeat-x; position:relative; top:0; left:0; width:100%; min-width:960px; z-index:1;}
+#catalogue #header {height:60px; background:url('images/header-bg.png') top center repeat-x; position:absolute; top:0; left:0; width:100%; min-width:960px; z-index:1;}
+#home #header {height:134px;background: #c49b99 url('images/header-bg-mini.png') bottom center repeat-x; position:absolute; top:0; left:0; width:100%; min-width:960px; z-index:1;border-bottom:5px solid #5e5550;}
+#header h1 {margin: 0;font-family:Georgia, Georgia, serif;background: transparent url('images/header-logo.png') top left no-repeat;font-weight:normal; text-transform:uppercase; letter-spacing:25px;margin: 0px auto;width: 960px;}
+#header h1 a:link{margin: 0;padding: 0;height: 126px;text-decoration: none;font-size:62px;color: #302722;text-align: center;width: 960px;display: block;padding: 34px 0;}
+#header h1 a:visited{text-decoration: none;font-size:62px;color: #302722;text-align: center;}
+
+
+
+/*-----------------------------------------------------------------
+drop down menu
+-----------------------------------------------------------------*/
+#menu {margin:0 auto; width:100%; height:10px; padding-top:16px; position:absolute; z-index:3; top:0; left:0;}
+#home #menu {margin:0 auto; width:100%;position:relative; z-index:3; top:138px;left:0;float: left;border-top:10px solid #302722;padding: 0;}
+
+#nav-map { position:relative;margin:0 auto; width:649px; height:154px; background-image:url('images/nav-map.jpg');}
+#nav-map .rooms {position:relative; float:left;}
+#nav-map .rooms a {display:block; position:absolute; /*background:#f00;*/}
+#nav-rm1 {height:154px; width:231px;}
+#nav-map a.r1s1 {width:20px; height:125px; top:13px; left:0;}
+#nav-map a.r1s2 {width:200px; height:15px; top:0px; left:18px;}
+#nav-map a.r1s3 {width:20px; height:119px; top:18px; right:0;}
+#nav-map a.r1s4 {width:200px; height:15px; bottom:0; left:18px;}
+#nav-rm2 {height:154px; width:202px;}
+#nav-map a.r2s1 {width:179px; height:13px; top:0px; left:10px;}
+#nav-map a.r2s2 {width:20px; height:121px; top:15px; right:0px;}
+#nav-map a.r2s3 {width:186px; height:17px; bottom:0px; left:10px;}
+#nav-map a.r2s4 {width:20px; height:120px; top:15px; left:0px;}
+#nav-rm3 {height:154px; width:216px;}
+#nav-map a.r3s1 {width:186px; height:12px; top:0px; left:10px;}
+#nav-map a.r3s2 {width:20px; height:121px; top:15px; right:0px;}
+#nav-map a.r3s3 {width:188px; height:17px; bottom:0px; left:10px;}
+#nav-map a.r3s4 {width:20px; height:120px; top:15px; left:0px;}
+
+#menu-content {padding-top:20px; margin:0 auto; width:934px; display:none; border:#302722 solid; border-width:0 10px 5px; height:240px; background:url('images/body-bg.jpg') top center repeat;}
+#home #menu-content {padding-top:30px; margin:0 auto; width:934px; display:none; border:#302722 solid; border-width:0 10px 5px; height:200px; background:url('images/body-bg.jpg') top center repeat;}
+#menu-links {margin-bottom:50px; font-size:14px;}
+#menu-links a:link, #menu-links a:visited {color:#302722; font-size:16px; letter-spacing:5px; text-decoration:none;}
+#menu-links a:hover, #menu-links a:active {color:#f9f4ef;}
+
+#menu-tab {margin:0 auto;background: #302722; padding:0 60px; width:720px; height:25px; border-bottom-left-radius: 70px 50px;border-bottom-right-radius: 70px 50px; text-align:center;}
+#menu-tab a:link, #menu-tab a:visited {color:#c69c9b; text-decoration:none;}
+#menu-tab a:hover, #menu-tab a:active {color:#fff;}
+#menu-tab .current{color: #edebde;}
+
+#menu h1 {margin: 0 20px;display: block;height: 86px;position: absolute; font-weight:normal; text-transform:uppercase;background:url('images/menu-logo.png') top left no-repeat;}
+#menu h1 a:link{display: inline-block; margin:4px 0 0 8px;padding: 10px;text-decoration: none; font-size:22px;color: #302722; letter-spacing:12px; }
+
+#menu-links {float: left;margin: 0;}
+#menu-links a {display: inline-block;float:left; width:240px; text-align: center; margin: 0;padding:0;text-transform:uppercase;}
+#menu-links .explore {font-weight:normal; font-size:20px;}
+#menu-links .tab-link {font-size: 14px;font-style: oblique;text-transform:lowercase;position: relative;top: 5px; display: inline-block;background: #302722; padding: 0 0 20px 0;border-bottom-left-radius: 70px 50px;border-bottom-right-radius: 70px 50px;}
+#menu-links .tab-link i{position: absolute; bottom:2px; right: 50%;}
+
+
+/*-----------------------------------------------------------------
+FOOTER
+-----------------------------------------------------------------*/
+
+#footer-container {clear:both; width:100%; height:220px; background:url('images/footer-bg.png') bottom center repeat-x; color:#aea8a5;}
+#footer {width:960px; font-family: Georgia Light, serif; margin:0 auto; clear: both;}
+#footer h1 {background: url("images/JaneSilhouette_Footer.jpg") no-repeat; font-family:Palatino Linotype, Book Antiqua, Palatino, serif; height: 98px; text-indent:1.3em;}
+#footer h1 a{font-size: 32px; text-decoration: none;font-weight:normal; text-transform:uppercase; letter-spacing:8px; color:#aea8a5;}
+#footer h1 a:hover, #footer h4 a:hover{color:#fff;}
+#footer h4 {font-family: Georgia, serif; font-size: 15px;}
+#footer a {color: #aea8a5; margin-bottom: 20px; text-decoration: none;}
+.englishandname {position: relative; bottom: 5em; left: 5em;}
+
+#footer .left {float:left; line-height:1.3; font-weight:normal; width: 50%; margin-top: 5em;}
+#footer .right {float:right; margin-top: 6em; display: inline;}
+a.laits-branding {display: block; background: url(images/footer_branding.png) no-repeat; background-position: 0 -104px; height: 32px;  width: 175px;}
+a:hover.laits-branding {background-position: 0 -62px;}
+a.cola-branding {display: block; background: url(images/footer_branding.png) no-repeat; background-position: 0 0; height: 21px;  width: 235px;}
+a:hover.cola-branding {background-position: 0 -31px;}
+a.ut-branding {display: block; background: url(images/footer_branding.png) no-repeat; background-position: 0 -146px; height: 8px;  width: 235px;}
+a:hover.ut-branding {background-position: 0 -164px;}
