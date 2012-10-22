@@ -25,23 +25,25 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
 
   <title>What Jane Saw</title>
   <link rel=\"StyleSheet\" href=\"index_files/bootstrap.css\" type=\"text/css\">
-  <link rel=\"StyleSheet\" href=\"index_files/style.css\" type=\"text/css\">
+  <link rel=\"StyleSheet\" href=\"css/style.css\" type=\"text/css\">
   <style type=\"text/css\">
 \t\t
 \t\t\t</style>
   <script src=\"index_files/jquery.min.js\" type=\"text/javascript\">
 </script>
   <script type=\"text/javascript\" src=\"index_files/script.js\">
+
 </script>
 </head>
 
 <body id=\"home\">
   <div class=\"navbar container\" id=\"header\">
     <h1><a href=\"http://dev.laits.utexas.edu/whatjanesaw/index.html\">What Jane Saw</a></h1>
+    
   </div>
 
   <div id=\"menu\">
-    <div id=\"menu-content\" style=\"display: block;\">
+    <div id=\"menu-content\" style=\"\">
       <div id=\"nav-map\" style=\"background-position: 0px 0px; \">
         <div class=\"rooms\" id=\"nav-rm1\">
           <a class=\"nav-map-link r1s1\" name=\"0.0\" href=\"\"></a>
@@ -64,15 +66,13 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
 \t  <a class=\"nav-map-link r3s4\" name=\"-1298.-462\" href=\"\"></a>
         </div>
       </div>
-    </div>
-
-  
+    </div>  
     <div id=\"menu-tab\">
       <div id=\"explore\">
         <div id=\"menu-links\">
           <a href=\"http://dev.laits.utexas.edu/whatjanesaw/catalogue.html\">Catalogue</a>
-\t  <a class=\"tab-link\" href=\"\">Floorplan <i class=\"icon-chevron-down icon-white\"></i></a>
-\t  <a href=\"http://dev.laits.utexas.edu/whatjanesaw/about.html\">About</a>
+\t\t  <a class=\"tab-link\" href=\"\">Floorplan <i class=\"icon-chevron-down icon-white\"></i></a>
+\t\t  <a href=\"http://dev.laits.utexas.edu/whatjanesaw/about.html\">About</a>
         </div>
       </div>
     </div>

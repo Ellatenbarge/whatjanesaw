@@ -56,7 +56,7 @@ class __TwigTemplate_59a5b11851abdac4cf63a21bd444d90b extends Twig_Template
         if (isset($context["pageTitle"])) { $_pageTitle_ = $context["pageTitle"]; } else { $_pageTitle_ = null; }
         echo twig_escape_filter($this->env, $_pageTitle_, "html", null, true);
         echo "</h1>
-    <div id=\"main\" style=\"background:url(img/roombg.jpeg) top center no-repeat;width: 960px;height: 800px;\">
+    <div id=\"main\" style=\"position: relative; background:url(img/roombg.jpeg) top center no-repeat;width: 960px;height:800px;margin-top: 116px;\">
 
         fuckin a it actually works
     
