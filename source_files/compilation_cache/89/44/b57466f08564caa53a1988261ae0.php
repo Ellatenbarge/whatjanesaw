@@ -39,6 +39,15 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
 <body id=\"home\">
   <div class=\"navbar container\" id=\"header\">
     <h1><a href=\"http://dev.laits.utexas.edu/whatjanesaw/index.html\">What Jane Saw</a></h1>
+    <div class=\"dropdown\">
+\t  <a class=\"dropdown-toggle\" id=\"dLabel\" role=\"button\" data-toggle=\"dropdown\" data-target=\"#\" href=\"/page.html\">
+\t\tDropdown
+\t\t<b class=\"caret\"></b>
+\t  </a>
+\t  <ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"dLabel\">
+\t\t...
+\t  </ul>
+\t</div>
     
   </div>
 
@@ -81,9 +90,9 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
   <div class=\"container\">
   
    \t";
-        // line 64
+        // line 73
         $this->displayBlock('content', $context, $blocks);
-        // line 65
+        // line 74
         echo "
   </div><!-- #container -->
 
@@ -102,11 +111,39 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
     </div><!-- #right -->
   </div><!-- #footer -->
   </div><!-- #footer-container -->
+      <!-- Modal
+        ================================================== -->
+
+         
+
+\t
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type=\"text/javascript\" src=\"http://platform.twitter.com/widgets.js\"></script>
+    <script src=\"assets/js/jquery.js\"></script>
+    <script src=\"assets/js/google-code-prettify/prettify.js\"></script>
+    <script src=\"assets/js/bootstrap-transition.js\"></script>
+    <script src=\"assets/js/bootstrap-alert.js\"></script>
+    <script src=\"assets/js/bootstrap-modal.js\"></script>
+    <script src=\"assets/js/bootstrap-dropdown.js\"></script>
+    <script src=\"assets/js/bootstrap-scrollspy.js\"></script>
+    <script src=\"assets/js/bootstrap-tab.js\"></script>
+    <script src=\"assets/js/bootstrap-tooltip.js\"></script>
+    <script src=\"assets/js/bootstrap-popover.js\"></script>
+    <script src=\"assets/js/bootstrap-button.js\"></script>
+    <script src=\"assets/js/bootstrap-collapse.js\"></script>
+    <script src=\"assets/js/bootstrap-carousel.js\"></script>
+    <script src=\"assets/js/bootstrap-typeahead.js\"></script>
+    <script src=\"assets/js/bootstrap-affix.js\"></script>
+    <script src=\"assets/js/application.js\"></script>
+
 
 </body></html>";
     }
 
-    // line 64
+    // line 73
     public function block_content($context, array $blocks = array())
     {
     }
@@ -118,6 +155,6 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  108 => 64,  85 => 65,  83 => 64,  18 => 1,);
+        return array (  145 => 73,  94 => 74,  92 => 73,  18 => 1,);
     }
 }
