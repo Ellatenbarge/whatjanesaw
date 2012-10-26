@@ -25,7 +25,7 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
 
   <title>What Jane Saw</title>
   <link rel=\"StyleSheet\" href=\"index_files/bootstrap.css\" type=\"text/css\">
-  <link rel=\"StyleSheet\" href=\"css/style.css\" type=\"text/css\">
+  <link rel=\"StyleSheet\" href=\"index_files/style.css\" type=\"text/css\">
   <style type=\"text/css\">
 \t\t
 \t\t\t</style>

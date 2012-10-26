@@ -1,29 +1,22 @@
-<a class="painting-link" id="{{doc.id}}" style="display: block; position:absolute; top:{{doc.x}}; left:{{doc.y}}; width:{{doc.width}}; height:{{doc.height}}; background-image:url(img/{{doc.filename}});"  data-toggle="modal" href="#myModal"></a>
+<a class="painting-link" id="{{doc.id}}" style="display: block; position:absolute; top:{{doc.x}}; left:{{doc.y}}; width:{{doc.width}}; height:{{doc.height}}; background-image:url(img/{{doc.filenamethumb}});"  data-toggle="modal" href="#myModal"></a>
          
-          <!-- sample modal content -->
-          <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h3 id="myModalLabel">Modal Heading</h3>
-            </div>
-            <div class="modal-body">
-				<div id="lb-content" style="">
-					<div id="painting-container">
-						<img id="painting" src="https://dase.laits.utexas.edu/media/what_jane_saw/small/100286565_640.jpg">
-						<p>George III (1738-1820)<br>
-							Royal Academy of Arts, London<br>
-							Painted 1779</p>
-					</div>
-					<div id="painting-info">
-						<p>By 1813, although George III remained Britain's official King, the country was being run as a "regency" by his eldest son, the Prince of Wales (later George IV). The Regency, established in 1810, was deemed necessary because George III suffered from recurring bouts of mental illness, which towards the end of his life had become permanent. The illness baffled medical practitioners at the time but may, it has been suggested, have been caused by porphyria (a blood disease).</p>
-						<p>Historical opinions of George III's life and reign vary, depending upon the prejudices and sources of biographers. Regardless, there is no denying that his long reign was marked by many military conflicts and important shifts in the British empire: among these were the Seven Years' War with France; changes in Indian rule; the loss of the American colonies in the American War of Independence; and two decades of war with Napoleonic France which would not conclude until 1815.</p>
-						<p>It may be significant that this picture depicts the King as still a vibrant leader, before he succumbed to disease.</p>
-					</div>
-				</div>
-            </div>
-            <div class="modal-footer">
-              <button class="btn" data-dismiss="modal">Close</button>
-            </div>
-          </div>
+<!-- sample modal content -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="lb-content" style="color: #000;">
+			<div id="painting-container">
+				<img id="painting" src="{{doc.filename}}">
+			</div>
+			<div id="painting-info">
+				<p id="title">
+				{{doc.title}}<br/>
+				{{doc.currentlocation}}<br/>
+				{{doc.date}}
+				</p>	
+				<p>{{doc.p1}}</p>
+				<p>{{doc.p2}}</p>
+				<p>{{doc.p3}}</p>
+			</div>
+	</div>
+</div>
 
 
